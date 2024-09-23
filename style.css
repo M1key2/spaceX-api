@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    flex: 1;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+input[type="date"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ffcc00;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+
+button {
+    padding: 15px 35px;
+    background-image: linear-gradient(to right, #ff4b1f, #ff9068);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #ff9068, #ff4b1f);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+#launchesContainer div {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#launchesContainer div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+#launchesContainer img {
+    max-width: 120px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#launchesContainer h3 {
+    color: #00d4ff;
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#launchesContainer p {
+    color: #ffecd2;
+    margin: 8px 0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffecd2;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    border-top: 1px solid #00d4ff;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+footer p:first-child {
+    font-weight: bold;
+    color: #00d4ff;
+}
